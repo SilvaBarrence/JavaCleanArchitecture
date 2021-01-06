@@ -1,4 +1,4 @@
-package escola;
+package br.com.alura.escola.dominio.aluno;
 
 public class CPF {
 	
@@ -10,6 +10,10 @@ public class CPF {
 		}
 		this.cpf = cpf;
 	}
-	
 
+	public String getCpf() {
+		return this.cpf;
+	}
+	
+		
 }
