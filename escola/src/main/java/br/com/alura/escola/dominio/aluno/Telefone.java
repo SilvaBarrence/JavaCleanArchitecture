@@ -24,11 +24,11 @@ public class Telefone {
 		this.numero = numero;
 	}
 
-	public Object getDDD() {
+	public String getDDD() {
 		return this.ddd;
 	}
 
-	public Object getNumero() {
+	public String getNumero() {
 		return this.numero;
 	}
 	
