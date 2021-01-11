@@ -20,6 +20,6 @@ class CPFTest {
 	void validarCPFValido() {
 		String cpf1 = "708.356.841-56";
 		CPF cpfTest1 = new CPF(cpf1);
-		assertEquals(cpf1, cpfTest1.getCpf());
+		assertEquals(cpf1, cpfTest1.getNumero());
 	}
 }
